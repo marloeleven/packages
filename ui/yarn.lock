@@ -9454,6 +9454,15 @@ jss-plugin-rule-value-function@^10.0.3:
     jss "^10.3.0"
     tiny-warning "^1.0.2"
 
+jss-plugin-template@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/jss-plugin-template/-/jss-plugin-template-10.3.0.tgz#8516574260f531b20b9bb4bfb23bb2b5ca70a93d"
+  integrity sha512-p862BehZeAZRcBZT834rCHO58TTimYaG1eFe1x3uNjKJkdfGpRF00bGN2NQ+0u5yBoeqz1gPG/YpdcDkpHvnFA==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "^10.3.0"
+    tiny-warning "^1.0.2"
+
 jss-plugin-vendor-prefixer@^10.0.3:
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.3.0.tgz#b09c13a4d05a055429d8a24e19cc01ce049f0ed4"
