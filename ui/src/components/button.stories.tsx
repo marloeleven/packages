@@ -29,24 +29,38 @@ export const Default = () => (
 
 export const Disabled = () => (
   <Button onClick={action('clicked')} disabled>
-    DISABLED
+    Disabled
   </Button>
 );
 
-export const Secondary = () => (
-  <Button color={IColor.SECONDARY} onClick={action('clicked')}>
-    SECONDARY
+export const Primary = () => (
+  <Button color='primary' onClick={action('clicked')}>
+    Primary
   </Button>
 );
+
+// export const PrimaryDisabled = () => (
+//   <Button color='primary' onClick={action('clicked')} disabled>
+//     Primary
+//   </Button>
+// );
+
+export const Secondary = () => (
+  <Button color='secondary' onClick={action('clicked')}>
+    Secondary
+  </Button>
+);
+
+// export const SecondaryDisabled = () => (
+//   <Button color='secondary' onClick={action('clicked')} disabled>
+//     Secondary
+//   </Button>
+// );
 
 export const AddToCart = () => {
   const classes = addToCartStyles();
   return (
-    <Button
-      color={IColor.SECONDARY}
-      onClick={action('clicked')}
-      className={classes.root}
-    >
+    <Button onClick={action('clicked')} className={classes.root}>
       <AddShoppingCartIcon fontSize='small' />
       <Typography variant='caption'>Add to Cart</Typography>
     </Button>
